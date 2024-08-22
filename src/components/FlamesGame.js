@@ -60,12 +60,14 @@ const FlamesGame = () => {
     <div>
       <input
         type="text"
+        name="name1"
         value={name1}
         onChange={(e) => setName1(e.target.value)}
         data-testid="input1"
         placeholder="Enter first name"
       />
       <input
+        name="name2"
         type="text"
         value={name2}
         onChange={(e) => setName2(e.target.value)}
